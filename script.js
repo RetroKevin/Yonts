@@ -9,19 +9,19 @@ let playerWidth = size;
 let playerHeight = size;
 const spriteSize = [size, size];
 const landSpriteSheet = new Image();
-landSpriteSheet.src = "/img/Ground/Grass.png";
+landSpriteSheet.src = "/img/Grass.png";
 const playerSpriteSheet = new Image();
-playerSpriteSheet.src = "/img/Characters/Soldiers/Melee/SwordsmanTemplate.png";
+playerSpriteSheet.src = "/img/SwordsmanTemplate.png";
 const tallGrassSpriteSheet = new Image();
-tallGrassSpriteSheet.src = "img/Ground/TexturedGrass.png";
+tallGrassSpriteSheet.src = "img/TexturedGrass.png";
 const dirtSpriteSheet = new Image();
-dirtSpriteSheet.src = "img/Ground/DeadGrass.png";
+dirtSpriteSheet.src = "img/DeadGrass.png";
 const housesSpriteSheet = new Image();
-housesSpriteSheet.src = "img/Buildings/Wood/Houses.png";
+housesSpriteSheet.src = "img/Houses.png";
 const treesSpriteSheet = new Image();
-treesSpriteSheet.src = "img/Nature/Trees.png";
+treesSpriteSheet.src = "img/Trees.png";
 const orcMageSpriteSheet = new Image();
-orcMageSpriteSheet.src = "img/Characters/Monsters/Orcs/OrcMage.png";
+orcMageSpriteSheet.src = "img/OrcMage.png";
 orcMageSpriteSheet.onload = () => init();
 
 const rng = function (min, max) {
